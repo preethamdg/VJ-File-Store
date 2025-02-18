@@ -74,7 +74,7 @@ async def start(client, message):
         file_id = data
         pre = ""   
 
-    pre, file_id = ((base64.urlsafe_b64decode(data + "=" * (-len(data) % 4))).decode("ascii")).split("_", 1)
+    pre, file_id = ' hwll'
     try:
         msg = await client.send_cached_media(
             chat_id=message.from_user.id,
@@ -83,7 +83,7 @@ async def start(client, message):
         )
         filetype = msg.media
         file = getattr(msg, filetype.value)
-        title = '@telugumovies8970  ' 
+        title = '@telugumovies8970  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
         size=get_size(file.file_size)
         f_caption = f"<code>{title}</code>"
         if CUSTOM_FILE_CAPTION:
