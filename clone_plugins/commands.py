@@ -74,7 +74,7 @@ async def start(client, message):
         file_id = data
         pre = ""   
 
-    pre, file_id = ' hwll'
+    pre, file_id =  ((base64.urlsafe_b64decode(data + "=" * (-len(data) % 4))).decode("ascii")).split("_", 1)
     try:
         msg = await client.send_cached_media(
             chat_id=message.from_user.id,
