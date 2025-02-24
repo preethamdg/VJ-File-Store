@@ -6,7 +6,7 @@ class script(object):
 
 
     
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : 'its your movie link bro'
 
 ⚙️ sɪᴢᴇ : {file_size}
 
