@@ -62,9 +62,9 @@ async def start(client, message):
             InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ telegram ᴄʜᴀɴɴᴇʟ', url='https://t.me/telugumovies8970')
             ],[
             InlineKeyboardButton('🔍 Telugu Movies', url='https://t.me/teluguyuvata0'),
-            InlineKeyboardButton('🤖 Any Movies', url='https://t.me/anytimewatcher')
+            InlineKeyboardButton('🔍 Any Movies', url='https://t.me/anytimewatcher')
             ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘer', callback_data='help'),
+            InlineKeyboardButton('💁‍♀️ ʜᴇʟp', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         if CLONE_MODE == True:
@@ -343,7 +343,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ telegram ᴄʜᴀɴɴᴇʟ', url='https://t.me/telugumovies8970')
         ],[
             InlineKeyboardButton('🔍 Telugu Movies', url='https://t.me/teluguyuvata0'),
-            InlineKeyboardButton('🤖 Any Movies', url='https://t.me/anytimewatcher')
+            InlineKeyboardButton('🔍 Any Movies', url='https://t.me/anytimewatcher')
         ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
