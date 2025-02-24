@@ -61,8 +61,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ telegram ᴄʜᴀɴɴᴇʟ', url='https://t.me/telugumovies8970')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/teluguyuvata0'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/teluguyuvata0')
+            InlineKeyboardButton('🔍 Telugu Movies', url='https://t.me/teluguyuvata0'),
+            InlineKeyboardButton('🤖 Any Movies', url='https://t.me/anytimewatcher')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘer', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -169,12 +169,7 @@ async def start(client, message):
                         fileName = {quote_plus(get_name(log_msg))}
                         stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
                         download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
-                        button = [[
-                            InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=download),
-                            InlineKeyboardButton('• ᴡᴀᴛᴄʜ •', url=stream)
-                        ],[
-                            InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
-                        ]]
+                       
                         reply_markup=InlineKeyboardMarkup(button)
                 else:
                     reply_markup = None
@@ -342,8 +337,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ telegram ᴄʜᴀɴɴᴇʟ', url='https://t.me/telugumovies8970')
         ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/teluguyuvata0'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/teluguyuvata0')
+            InlineKeyboardButton('🔍 Telugu Movies', url='https://t.me/teluguyuvata0'),
+            InlineKeyboardButton('🤖 Any Movies', url='https://t.me/anytimewatcher')
         ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
