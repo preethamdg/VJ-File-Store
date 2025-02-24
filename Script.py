@@ -89,7 +89,7 @@ First Send /clone command then follow below steps.
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    HELP_TXT = """<b><u>💢 HOW TO USE THE BOT ☺️</u>
+    HELP_TXT = """<b><u>💢 HOW TO USE THE BOT ☺️</u></b>"""
 
 
 # Don't Remove Credit Tg - @VJ_Botz
