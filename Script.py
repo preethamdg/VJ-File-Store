@@ -1,7 +1,7 @@
 
 
 class script(object):
-    START_TXT = """<b>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ {} 👋, if you want any movie link join our support group and ask. we will send it to you"""
+    START_TXT = """<b>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ {} 👋, if you want any movie link join our groups and ask. we will send it to you"""
 
 
 
